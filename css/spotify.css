@@ -50,7 +50,7 @@ sidebar {
 header {
     height: 340px;
     width: auto;
-    background-color: var(--black-spotify);
+    background-color: white;
     z-index: 0;
 }
 
@@ -79,6 +79,18 @@ sidebar .logo {
     position: relative;
     right: 30.5px;
     bottom: 2px;
+}
+
+sidebar a {
+    text-decoration: none;
+    color: var(--black-spotify);
+    font-size: 1.2rem;
+}
+
+sidebar li {
+    background-color: white;
+    padding-top: 12px;
+    list-style: none;
 }
 
 sidebar .menu {
@@ -115,14 +127,103 @@ sidebar .sub-menu-2 img {
     vertical-align: middle;
 }
 
-sidebar .menu li {
+sidebar .playlists {
+    width: 100%;
+    height: 270px;
+    max-height: 270px;
     background-color: white;
-    padding-top: 12px;
-    list-style: none;
+    font-size: 1.6rem;
+    color: var(--black-spotify);
 }
 
-sidebar .menu a {
-    text-decoration: none;
-    color: var(--black-spotify);
+sidebar .playlists {
+    background-color: transparent;
+    padding-left: 24px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-top: -20px;
+}
+
+/* HEADER */
+
+header {
+    /* display: inline-block; */
+    background-color: white;
+}
+
+header .back-front-buttons {
+    padding-left: 275px;
+}
+
+.back-button-img {
+    background-image: url("https://i.ibb.co/bszyC0X/Chevron-left.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+.front-button-img {
+    background-image: url("https://i.ibb.co/yX9JLhc/Chevron-right.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+
+}
+
+.profile-pic {
+    background-image: url("https://avatars.githubusercontent.com/u/5223148?v=4");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    position: relative;
+    left: 1390px;
+
+}
+
+.drop-down {
+    background-image: url("https://i.ibb.co/XkGHd26/60995.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 12.5px;
+    height: 12.5px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    position: relative;
+    left: 1500px;
+
+}
+
+.user-profile {
+    margin-left: 15px;
+    border-radius: 23px;
+    width: 165px;
+    height: 33px;
+    background-color: white;
+    border-color: var(--background-grey);
     font-size: 1.2rem;
+    color: var(--black-spotify);
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1340px;
+    margin-top: 15px;
+
 }
