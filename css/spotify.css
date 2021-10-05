@@ -16,6 +16,7 @@
 /* Crear playlist https://i.ibb.co/6t2MRTY/Captura-de-Pantalla-2021-10-04-a-la-s-16-31-17.png */
 /* Tus me gusta https://i.ibb.co/1fCMfSJ/Captura-de-Pantalla-2021-10-04-a-la-s-16-31-42.png */
 /* Tus episodios https://i.ibb.co/3dWFdqM/Captura-de-Pantalla-2021-10-04-a-la-s-16-32-05.png */
+/* Adrenalized album cover https://i.ibb.co/w6ZFr9v/external-content-duckduckgo-com.jpg */
 
 /* MAIN CONFIG */
 
@@ -25,6 +26,8 @@
     --black-spotify: #191414;
     --grey-spotify: #A4A4A4;    
     --background-grey: #C4C4C4;
+    --album-art-claro: #593232;
+    --album-art-oscuro: #2E1A1A;
 }
 
 * {
@@ -146,8 +149,9 @@ sidebar .playlists {
 
 /* HEADER */
 
+/* OPCIONES PARTE ALTA DE LA PÁGINA */
+
 header {
-    /* display: inline-block; */
     background-color: white;
 }
 
@@ -226,4 +230,32 @@ header .back-front-buttons {
     margin-left: 1340px;
     margin-top: 15px;
 
+}
+
+/* ÁLBUM INFO */
+
+.album-area {
+    background: white;
+    height: 291.5px;
+    width: 100%;
+    padding-left: 275px;
+    display: inline-block;
+}
+
+.album-cover {
+    height: 240px;
+    width: 240px;
+    display: inline-block;
+    background-image: url("https://i.ibb.co/w6ZFr9v/external-content-duckduckgo-com.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+
+.album-data {
+    background-color: var(--green-spotify);
+    height: 280px;
+    width: 700px;
+    display: inline-block;
 }
