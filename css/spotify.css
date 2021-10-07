@@ -1,261 +1,420 @@
 /* Icons & images */
 
-/* Home icon (fondo negro) https://i.ibb.co/JrwWj61/Home-filled.png  */
-/* Home icon (fondo blanco) https://i.ibb.co/QJ4Sw52/Home.png */
-/* Add icon https://i.ibb.co/581k1yT/Add-plus.png */
-/* Download button https://i.ibb.co/c6Yw0Q3/Chevron-down.png */
-/* Back button https://i.ibb.co/bszyC0X/Chevron-left.png */
-/* Next button https://i.ibb.co/yX9JLhc/Chevron-right.png */
-/* Credit card button https://i.ibb.co/XCSjBzZ/Credit-card.png */
-/* Library button https://i.ibb.co/X2SFfYV/Library-small.png */
-/* Music icon https://i.ibb.co/BGCH2Sh/Music-icon.png */
-/* Play button https://i.ibb.co/NWQFJCF/Play.png */
-/* Round button https://i.ibb.co/F8LbjjK/Round.png */
-/* Search icon https://i.ibb.co/JyP2hds/Search-small.png */
-/* Spotify logo https://i.ibb.co/zSX7rTt/Logo-Spotify-Big.png */
-/* Crear playlist https://i.ibb.co/6t2MRTY/Captura-de-Pantalla-2021-10-04-a-la-s-16-31-17.png */
-/* Tus me gusta https://i.ibb.co/1fCMfSJ/Captura-de-Pantalla-2021-10-04-a-la-s-16-31-42.png */
-/* Tus episodios https://i.ibb.co/3dWFdqM/Captura-de-Pantalla-2021-10-04-a-la-s-16-32-05.png */
-/* Adrenalized album cover https://i.ibb.co/w6ZFr9v/external-content-duckduckgo-com.jpg */
+    /* Home icon (fondo negro) https://i.ibb.co/JrwWj61/Home-filled.png  */
+    /* Home icon (fondo blanco) https://i.ibb.co/QJ4Sw52/Home.png */
+    /* Add icon https://i.ibb.co/581k1yT/Add-plus.png */
+    /* Download button https://i.ibb.co/c6Yw0Q3/Chevron-down.png */
+    /* Back button https://i.ibb.co/bszyC0X/Chevron-left.png */
+    /* Next button https://i.ibb.co/yX9JLhc/Chevron-right.png */
+    /* Credit card button https://i.ibb.co/XCSjBzZ/Credit-card.png */
+    /* Library button https://i.ibb.co/X2SFfYV/Library-small.png */
+    /* Music icon https://i.ibb.co/BGCH2Sh/Music-icon.png */
+    /* Play button https://i.ibb.co/NWQFJCF/Play.png */
+    /* Like Button 1 https://i.ibb.co/PggtwJf/save-to-your-liked-songs-512.webp */
+    /* Like Button 2 https://i.ibb.co/bBNW2hT/53-512.webp */
+    /* Green Play Button https://i.ibb.co/nRHydf3/Spotify-Play-Button-1-300x283.png */
+    /* Three dots more options https://i.ibb.co/6NyM7qX/1380510-200.png */
+    /* Round button https://i.ibb.co/F8LbjjK/Round.png */
+    /* Search icon https://i.ibb.co/JyP2hds/Search-small.png */
+    /* Spotify logo https://i.ibb.co/zSX7rTt/Logo-Spotify-Big.png */
+    /* Crear playlist https://i.ibb.co/6t2MRTY/Captura-de-Pantalla-2021-10-04-a-la-s-16-31-17.png */
+    /* Tus me gusta https://i.ibb.co/1fCMfSJ/Captura-de-Pantalla-2021-10-04-a-la-s-16-31-42.png */
+    /* Tus episodios https://i.ibb.co/3dWFdqM/Captura-de-Pantalla-2021-10-04-a-la-s-16-32-05.png */
+    /* Adrenalized album cover https://i.ibb.co/w6ZFr9v/external-content-duckduckgo-com.jpg */
+    /* Adrenalized band logo https://i.ibb.co/PjVpLsx/0014799481-10.jpg */
 
 /* MAIN CONFIG */
 
-:root {
-    /* Colores */
-    --green-spotify: #1DB954;
-    --black-spotify: #191414;
-    --grey-spotify: #A4A4A4;    
-    --background-grey: #C4C4C4;
-    --album-art-claro: #593232;
-    --album-art-oscuro: #2E1A1A;
-}
+    :root {
+        /* Colores */
+        --green-spotify: #1DB954;
+        --black-spotify: #191414;
+        --grey-spotify: #A4A4A4;    
+        --background-grey: #C4C4C4;
+        --album-art-claro: #593232;
+        --album-art-oscuro: #2E1A1A;
+    }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
 
-html {
-    font-size: 62.5%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif}
+    html {
+        font-size: 62.5%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif}
 
 /* SECTIONS */
 
-sidebar {
-    height: 877.5px;
-    width: 12.5%;
-    position: fixed;
-    background-color: white;
-    z-index: 1;
-}
+    sidebar {
+        height: 877.5px;
+        width: 12.5%;
+        position: fixed;
+        background-color: white;
+    }
 
-header {
-    height: 340px;
-    width: auto;
-    background-color: white;
-    z-index: 0;
-}
+    header {
+        height: 340px;
+        width: auto;
+        background-color: white;
+    }
 
-main {
-    height: 537.5px;
-    width: auto;
-    background-color: var(--grey-spotify);
-}
+    main {
+        height: 537.5px;
+        width: auto;
+        background-color: white;
+        margin-left: 240px;
+    }
 
-footer {
-    height: 90px;
-    width: auto;
-    background-color: var(--green-spotify);
+    footer {
+        height: 90px;
+        width: auto;
+        background-color: var(--black-spotify);
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* SIDEBAR */
 
-sidebar .logo {
-    width: 100%;
-    height: 90px;
-    background-color: white;
-    background-image: url("https://cdn.usbrandcolors.com/images/logos/spotify-logo.svg");
-    background-size: 54%;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    right: 30.5px;
-    bottom: 2px;
-}
+    sidebar .logo {
+        width: 100%;
+        height: 90px;
+        background-color: white;
+        background-image: url("https://cdn.usbrandcolors.com/images/logos/spotify-logo.svg");
+        background-size: 54%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        right: 30.5px;
+        bottom: 2px;
+    }
 
-sidebar a {
-    text-decoration: none;
-    color: var(--black-spotify);
-    font-size: 1.2rem;
-}
+    sidebar a {
+        text-decoration: none;
+        color: var(--black-spotify);
+        font-size: 1.2rem;
+    }
 
-sidebar li {
-    background-color: white;
-    padding-top: 12px;
-    list-style: none;
-}
+    sidebar li {
+        background-color: white;
+        padding-top: 12px;
+        list-style: none;
+    }
 
-sidebar .menu {
-    width: 100%;
-    height: 270px;
-    background-color: white;
-    font-size: 1.6rem;
-    color: var(--black-spotify);
-}
+    sidebar .menu {
+        width: 100%;
+        height: 270px;
+        background-color: white;
+        font-size: 1.6rem;
+        color: var(--black-spotify);
+    }
 
-sidebar .sub-menu-1 {
-    background-color: transparent;
-    padding-left: 24px;
-    padding-top: 0px;
-    padding-bottom: 5px;
-    margin-top: 0px;
-}
+    sidebar .sub-menu-1 {
+        background-color: transparent;
+        padding-left: 24px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        margin-top: 0px;
+    }
 
-sidebar .sub-menu-1 img {
-    width: 10%;
-    vertical-align: middle;
-}
+    sidebar .sub-menu-1 img {
+        width: 10%;
+        vertical-align: middle;
+    }
 
-sidebar .sub-menu-2 {
-    background-color: transparent;
-    padding-left: 24px;
-    padding-top: 0px;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-}
+    sidebar .sub-menu-2 {
+        background-color: transparent;
+        padding-left: 24px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
 
-sidebar .sub-menu-2 img {
-    width: 10%;
-    vertical-align: middle;
-}
+    sidebar .sub-menu-2 img {
+        width: 10%;
+        vertical-align: middle;
+    }
 
-sidebar .playlists {
-    width: 100%;
-    height: 270px;
-    max-height: 270px;
-    background-color: white;
-    font-size: 1.6rem;
-    color: var(--black-spotify);
-}
+    sidebar .playlists {
+        width: 100%;
+        height: 270px;
+        max-height: 270px;
+        background-color: white;
+        font-size: 1.6rem;
+        color: var(--black-spotify);
+    }
 
-sidebar .playlists {
-    background-color: transparent;
-    padding-left: 24px;
-    padding-top: 0px;
-    padding-bottom: 5px;
-    margin-top: -20px;
-}
+    sidebar .playlists {
+        background-color: transparent;
+        padding-left: 24px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        margin-top: -20px;
+    }
 
 /* HEADER */
 
 /* OPCIONES PARTE ALTA DE LA PÁGINA */
 
-header {
-    background-color: white;
-}
+    header .back-front-buttons {
+        padding-left: 275px;
+    }
 
-header .back-front-buttons {
-    padding-left: 275px;
-}
+        .back-button-img {
+            background-image: url("https://i.ibb.co/bszyC0X/Chevron-left.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 25px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-top: 15px;
+        }
 
-.back-button-img {
-    background-image: url("https://i.ibb.co/bszyC0X/Chevron-left.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: 15px;
-}
+        .front-button-img {
+            background-image: url("https://i.ibb.co/yX9JLhc/Chevron-right.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 25px;
+            height: 25px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-top: 15px;
+        }
 
-.front-button-img {
-    background-image: url("https://i.ibb.co/yX9JLhc/Chevron-right.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: 15px;
+    .profile-pic {
+        background-image: url("https://avatars.githubusercontent.com/u/5223148?v=4");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 15px;
+        position: relative;
+        left: 1390px;
+    }
 
-}
+        .drop-down {
+            background-image: url("https://i.ibb.co/XkGHd26/60995.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            width: 12.5px;
+            height: 12.5px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-top: 15px;
+            position: relative;
+            left: 1500px;
 
-.profile-pic {
-    background-image: url("https://avatars.githubusercontent.com/u/5223148?v=4");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: 15px;
-    position: relative;
-    left: 1390px;
+        }
 
-}
-
-.drop-down {
-    background-image: url("https://i.ibb.co/XkGHd26/60995.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    width: 12.5px;
-    height: 12.5px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: 15px;
-    position: relative;
-    left: 1500px;
-
-}
-
-.user-profile {
-    margin-left: 15px;
-    border-radius: 23px;
-    width: 165px;
-    height: 33px;
-    background-color: white;
-    border-color: var(--background-grey);
-    font-size: 1.2rem;
-    color: var(--black-spotify);
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 1340px;
-    margin-top: 15px;
-
-}
+        .user-profile {
+            margin-left: 15px;
+            border-radius: 23px;
+            width: 165px;
+            height: 33px;
+            background-color: white;
+            border-color: var(--background-grey);
+            font-size: 1.2rem;
+            color: var(--black-spotify);
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 1340px;
+            margin-top: 15px;
+        }
 
 /* ÁLBUM INFO */
 
-.album-area {
-    background: white;
-    height: 291.5px;
-    width: 100%;
-    padding-left: 275px;
-    display: inline-block;
-}
+    .album-area {
+        background: white;
+        height: 291.5px;
+        width: 100%;
+        padding-left: 272px;
+        display: inline-block;
+    }
 
-.album-cover {
-    height: 240px;
-    width: 240px;
-    display: inline-block;
-    background-image: url("https://i.ibb.co/w6ZFr9v/external-content-duckduckgo-com.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 15px;
-}
+        .album-cover {
+            height: 240px;
+            width: 240px;
+            display: inline-block;
+            background-image: url("https://i.ibb.co/w6ZFr9v/external-content-duckduckgo-com.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: 25px;
+        }
 
-.album-data {
-    background-color: var(--green-spotify);
-    height: 280px;
-    width: 700px;
-    display: inline-block;
-}
+        .album-data {
+            background-color: white;
+            height: 240px;
+            width: 960px;
+            display: inline-block;
+            margin-top: 25px;
+            margin-left: 15px;
+            vertical-align: middle;
+            margin-bottom: 260px;
+        }
+
+            .text-containers {
+                background-color: white;
+                margin-top: 75px;
+            }
+
+                .release {font-size: 12px; background-color: white; color: var(--black-spotify);}
+
+                .album-name {font-size: 88px; background-color: white; color: var(--black-spotify);}
+
+                .band-info {background-color: white; padding-top: 0px;}
+
+                    .band-logo {
+                        background-image: url("https://i.ibb.co/PjVpLsx/0014799481-10.jpg");
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        border-radius: 50%;
+                        width: 25px;
+                        height: 25px;
+                        display: inline-block;
+                        margin-top: 15px;
+                        position: relative;
+                        bottom: 0px;
+                    }
+
+                    .album-info {
+                        display: inline-block; 
+                        font-size: 12px; 
+                        position: relative; 
+                        bottom: 9px;
+                        color: var(--black-spotify);
+                    }
+
+/* PLAY, LIKE AND MORE */
+
+    .three-buttons-area {
+        background: white;
+        height: 120px;
+        width: 100%;
+        padding-left: 272px;
+        display: inline-block;
+    }
+
+        .play-button {
+            background-image: url("https://i.ibb.co/nRHydf3/Spotify-Play-Button-1-300x283.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 75px;
+            height: 75px;
+            margin-top: 15px;
+            margin-left: -5px;
+            display: inline-block;
+        }
+
+        .like-button {
+            background-image: url("https://i.ibb.co/PggtwJf/save-to-your-liked-songs-512.webp");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 30px;
+            height: 30px;
+            margin-top: 0px;
+            display: inline-block;
+            margin-bottom: 20px;
+            margin-left: 15px;
+        }
+
+        .more-button {
+            background-image: url("https://i.ibb.co/6NyM7qX/1380510-200.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 30px;
+            height: 30px;
+            margin-top: 0px;
+            display: inline-block;
+            margin-bottom: 22.5px;
+            margin-left: 23.5px;
+        }
+
+/* MAIN */
+
+/* SONGS AREA */
+
+        .songs-area {
+            background-color: white;
+            width: auto;
+            height: 250px;
+            display: inline-block;
+            position: relative;
+            top: 120px;
+
+        }
+
+        .song-table-container {
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        .songs-table-title {
+            width: 1875px;
+        }
+
+        .separador {width: 99%; height: 1px; background-color: #c8ccd1; justify-content: center; margin: 0 auto; position: relative; bottom: 16px; z-index: 0;}
+
+        .songs-table {
+            width: 1875px;
+        }
+
+        .table__top_left {
+            width: 5px;
+            color: var(--black-spotify);
+            font-size: 1.4rem;
+            padding-left: 55px;
+        }
+
+        .table__top_middle {
+            width: 1600px;
+            color: var(--black-spotify);
+            font-size: 1.4rem;
+        }
+
+        .table__top_right {
+            width: 100px;
+            color: var(--black-spotify);
+            font-size: 1.4rem;
+            padding-right: 280px;
+        }
+
+/* FOOTER */
+
+.columna-1 {color: white;}
+
+        .album-thumbnail {
+            background-image: url("https://i.ibb.co/w6ZFr9v/external-content-duckduckgo-com.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 60px;
+            height: 60px;
+            margin-top: 15px;
+            margin-left: 25px;
+            display: flex;
+        }
+
+        .song-name-footer {
+            width: 50px;
+            height: 50px;
+            display: flex;
+        }
+
+.columna-2 {color: white;}
+
+.columna-3 {color: white;}
