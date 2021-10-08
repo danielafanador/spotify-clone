@@ -10,8 +10,12 @@
     /* Library button https://i.ibb.co/X2SFfYV/Library-small.png */
     /* Music icon https://i.ibb.co/BGCH2Sh/Music-icon.png */
     /* Play button https://i.ibb.co/NWQFJCF/Play.png */
+    /* Pause button https://i.ibb.co/1Lx9CH1/179-1792518-play-stop-pause-icon-png.png */
+    /* FF button https://i.ibb.co/LCGZn7q/image-1.png */
     /* Like Button 1 https://i.ibb.co/PggtwJf/save-to-your-liked-songs-512.webp */
     /* Like Button 2 https://i.ibb.co/bBNW2hT/53-512.webp */
+    /* Like button 3 (white) https://i.ibb.co/74WkZK5/descarga.png */
+    /* Song player https://i.ibb.co/drdbK0W/Captura-de-Pantalla-2021-10-08-a-la-s-18-25-15.png */
     /* Green Play Button https://i.ibb.co/nRHydf3/Spotify-Play-Button-1-300x283.png */
     /* Three dots more options https://i.ibb.co/6NyM7qX/1380510-200.png */
     /* Round button https://i.ibb.co/F8LbjjK/Round.png */
@@ -22,6 +26,11 @@
     /* Tus episodios https://i.ibb.co/3dWFdqM/Captura-de-Pantalla-2021-10-04-a-la-s-16-32-05.png */
     /* Adrenalized album cover https://i.ibb.co/w6ZFr9v/external-content-duckduckgo-com.jpg */
     /* Adrenalized band logo https://i.ibb.co/PjVpLsx/0014799481-10.jpg */
+    /* Lyrics icon https://i.ibb.co/9WBdnYD/Captura-de-Pantalla-2021-10-08-a-la-s-18-41-58.png */
+    /* Queue icon https://i.ibb.co/rMXy7TL/Captura-de-Pantalla-2021-10-08-a-la-s-18-42-28.png */
+    /* Device icon https://i.ibb.co/YptNL7g/Captura-de-Pantalla-2021-10-08-a-la-s-18-42-37.png */
+    /* Volume control https://i.ibb.co/cFp4c5Q/Captura-de-Pantalla-2021-10-08-a-la-s-18-43-12.png */
+
 
 /* MAIN CONFIG */
 
@@ -395,26 +404,159 @@
 
 /* FOOTER */
 
-.columna-1 {color: white;}
+.columna-1 {color: white; display: flex;}
 
-        .album-thumbnail {
-            background-image: url("https://i.ibb.co/w6ZFr9v/external-content-duckduckgo-com.jpg");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            width: 60px;
-            height: 60px;
-            margin-top: 15px;
-            margin-left: 25px;
-            display: flex;
-        }
+            .album-thumbnail {
+                background-image: url("https://i.ibb.co/w6ZFr9v/external-content-duckduckgo-com.jpg");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 60px;
+                height: 60px;
+                margin-top: 15px;
+                margin-left: 25px;
+                display: inline-block;
+            }
 
-        .song-name-footer {
-            width: 50px;
-            height: 50px;
-            display: flex;
-        }
+            .song-name-footer {
+                width: 150px;
+                height: 80px;
+                display: inline-block;
+                background-color:var(--black-spotify);
+            }
+
+                .song-name-footer .song-name-tag {
+                    font-size: 1.2rem;
+                    margin-top: 30px;
+                    margin-left: 15px;
+                }
+
+                .song-name-footer .band-name-tag {
+                    margin-left: 15px;
+                }
+
+                .white-like-button {
+                    background-image: url("https://i.ibb.co/74WkZK5/descarga.png");
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 14px;
+                    height: 14px;
+                    display: inline-block;
+                    margin-top: 36px;
+                    margin-left: 10px;
+                }
 
 .columna-2 {color: white;}
 
+                .play-pause-button {
+                    background-color: var(--black-spotify);
+                    width: 600px;
+                    height: 55px;
+                }
+
+                    .rewind-button {
+                        background-image: url("https://i.ibb.co/LCGZn7q/image-1.png");
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 18px;
+                        height: 18px;
+                        display: inline-block;
+                        margin-bottom: 4px;
+                        margin-left: 270px;
+                        transform: scaleX(-1);
+                    }
+                    
+                    .pause-button {
+                        background-image: url("https://i.ibb.co/1Lx9CH1/179-1792518-play-stop-pause-icon-png.png");
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 28px;
+                        height: 28px;
+                        display: inline-block;
+                        margin-top: 18px;
+                        margin-left: 10px;
+                    }
+
+                    .ff-button {
+                        background-image: url("https://i.ibb.co/LCGZn7q/image-1.png");
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 18px;
+                        height: 18px;
+                        display: inline-block;
+                        margin-bottom: 4px;
+                        margin-left: 10px;
+                    }
+
+                .timeline {
+                    background-color: var(--black-spotify);
+                    width: 692px;
+                    height: 200px;
+                    display: inline-block;
+                    position: relative;
+                    right: 35px;
+                }
+
+                .player {
+                    background-image: url("https://i.ibb.co/drdbK0W/Captura-de-Pantalla-2021-10-08-a-la-s-18-25-15.png");
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    width: 692px;
+                    height: 23px;
+                    display: inline-block;
+                    margin-bottom: 4px;
+                }
+
 .columna-3 {color: white;}
+
+                .controls {
+                    background-color: var(--black-spotify);
+                    width: 300px;
+                    height: 90px;
+                    margin-left: 360px;
+                }
+
+                    .lyrics {                    
+                        background-image: url("https://i.ibb.co/9WBdnYD/Captura-de-Pantalla-2021-10-08-a-la-s-18-41-58.png");
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 30px;
+                        height: 30px;
+                        display: inline-block;
+                        margin-top: 36px;}
+                        
+                    .queue {                        
+                        background-image: url("https://i.ibb.co/rMXy7TL/Captura-de-Pantalla-2021-10-08-a-la-s-18-42-28.png");
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 30px;
+                        height: 30px;
+                        display: inline-block;
+                        margin-top: 36px;}
+
+                    .device {                        
+                        background-image: url("https://i.ibb.co/YptNL7g/Captura-de-Pantalla-2021-10-08-a-la-s-18-42-37.png");
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 30px;
+                        height: 30px;
+                        display: inline-block;
+                        margin-top: 36px;}
+
+                    .volume {                        
+                        background-image: url("https://i.ibb.co/cFp4c5Q/Captura-de-Pantalla-2021-10-08-a-la-s-18-43-12.png");
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        width: 180px;
+                        height: 30px;
+                        display: inline-block;
+                        margin-top: 36px;}
